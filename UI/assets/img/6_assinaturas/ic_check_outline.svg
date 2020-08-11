@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Grupo_1982" data-name="Grupo 1982" transform="translate(-813 -434)">
+    <g id="Elipse_45" data-name="Elipse 45" transform="translate(813 434)" fill="none" stroke="#95b233" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <g id="Yes" transform="translate(821 442.615)">
+      <rect id="Retângulo_460" data-name="Retângulo 460" width="23" height="23" transform="translate(0 0.385)" fill="none"/>
+      <path id="Checkbox" d="M9.517,16.552,0,7.034,1.931,5.1l7.586,7.448L22.069,0,24,1.931Z" transform="translate(0 2.543)" fill="#abcd39"/>
+    </g>
+  </g>
+</svg>

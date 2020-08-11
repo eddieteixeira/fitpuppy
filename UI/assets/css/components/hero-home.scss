@@ -1,0 +1,30 @@
+#hero{
+  .slide_1{
+    background: url('../img/1_home/banners/banner_principal.jpg');
+  }
+  .slide_2{
+    background: url('../img/1_home/banners/banner_principal2.jpg');
+  }
+  .slide_3{
+    background: url('../img/1_home/banners/banner_principal3.jpg');
+  }
+  .slide-banner{
+    height: 536px;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1,h3{
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+#beneficios{
+  background: url('../img/1_home/principais_beneficios/fundo5%opacidade.png');
+  background-color: $secundaria;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding: 50px;
+  button{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .beneficio{
+    margin: 30px auto;
+    img{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      margin: 30px auto;
+      color: #fff;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+      max-width: 159px;
+    }
+  }
+  h4{
+    font-size: 32px;
+    line-height: 41px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 5% 0;
+  }
+}

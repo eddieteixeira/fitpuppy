@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.001" height="19" viewBox="0 0 19.001 19">
+  <g id="cancel" transform="translate(0 -0.011)">
+    <g id="Grupo_1949" data-name="Grupo 1949" transform="translate(0 0.011)">
+      <circle id="Elipse_58" data-name="Elipse 58" cx="8.769" cy="8.769" r="8.769" transform="translate(0.732 0.731)" fill="#c1c1c1"/>
+      <path id="Caminho_498" data-name="Caminho 498" d="M9.5,19.011A9.5,9.5,0,0,1,2.779,2.79h0A9.505,9.505,0,1,1,9.5,19.011ZM3.82,3.831a8.033,8.033,0,1,0,11.36,0,8.044,8.044,0,0,0-11.36,0Z" transform="translate(0 -0.011)" fill="#c1c1c1"/>
+    </g>
+    <g id="Grupo_1950" data-name="Grupo 1950" transform="translate(6.207 6.124)">
+      <path id="Caminho_499" data-name="Caminho 499" d="M168.008,171.413a.736.736,0,0,1-.521-1.257l5.205-5.205a.736.736,0,1,1,1.041,1.041l-5.205,5.205A.735.735,0,0,1,168.008,171.413Z" transform="translate(-167.27 -164.735)" fill="#fff"/>
+      <path id="Caminho_500" data-name="Caminho 500" d="M173.193,171.413a.734.734,0,0,1-.521-.216l-5.205-5.205a.736.736,0,0,1,1.041-1.041l5.205,5.205a.736.736,0,0,1-.521,1.257Z" transform="translate(-167.251 -164.735)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

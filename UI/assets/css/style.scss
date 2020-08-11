@@ -1,0 +1,40 @@
+
+// Cores
+$primaria: #95B233;
+$secundaria: #2F314A;
+
+// Geral
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+// Fontes
+h1,h2,h3,h4,h5,h6,p,span,a,button,ul,li {
+  font-family: 'Dosis', sans-serif !important;
+}
+
+.botao-primario {
+  background-color: $primaria;
+  padding: 12px 50px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.4s all;
+  &:hover{
+    background-color: $secundaria;
+  }
+}
+
+// Slick slider
+@import '../slick/slick.scss';
+@import '../slick/slick-theme.scss';
+
+// Hero
+@import 'components/hero-home.scss';
+@import 'components/feito-com-amor.scss';
+@import 'components/beneficios.scss';
+
