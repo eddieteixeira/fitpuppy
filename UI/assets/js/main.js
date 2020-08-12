@@ -1,5 +1,3 @@
-
-
 $( document ).ready(function() {
   $(".slick-slider").slick({
     slidesToShow: 1,
@@ -11,6 +9,7 @@ $( document ).ready(function() {
      // arrows: false, Boolean
    });
    console.log('jquery');
+
 });
 
 
