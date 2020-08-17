@@ -1,0 +1,42 @@
+#lojas{
+  padding: 20px;
+  margin: 30px auto 90px auto;
+  @media(max-width: 992px){
+    margin: 0 auto;
+  }
+  h3 {
+    color: #2f314a;
+    font-size: 32px;
+    line-height: 41px;
+    margin: 55px auto;
+    text-align: center;
+  }
+  .slick-lojas{
+    .loja-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        height: 105px;
+        width: 152px;
+        object-fit: cover;
+        display: block;
+        margin:  0 auto;
+      }
+    }
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #333232;
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .slick-prev:before {
+    content: '<';
+  }
+  .slick-next:before {
+    content: '>';
+  }
+}

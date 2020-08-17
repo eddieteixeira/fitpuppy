@@ -13,6 +13,9 @@
   }
   .beneficio{
     margin: 30px auto;
+    @media(max-width: 992px){
+      margin: 0 auto 15px auto;
+    }
     img{
       display: block;
       margin: 0 auto;

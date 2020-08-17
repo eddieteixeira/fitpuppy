@@ -1,0 +1,40 @@
+#depoimentos{
+  padding: 50px;
+  @media(max-width: 992px){
+    padding: 20px;
+  }
+  margin: 5% auto;
+  h4{
+    font-size: 32px;
+    line-height: 48px;
+    color: #2F314A;
+    font-weight: 700;
+    margin: -5% 5% 10% 5%;
+    text-align: center;
+  }
+  .item{
+    padding: 0 20px;
+    @media(max-width: 992px){
+      padding: 40px 20px;
+    }
+    .inner{
+      background-color: $primaria;
+      border-radius: 5px;
+      padding: 0 50px 50px 50px;
+    }
+    p{
+      color: #fff;
+      text-align: center;
+    }
+    img{
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: relative;
+      margin: 0 auto;
+      display: block;
+      top: -45px;
+    }
+  }
+}

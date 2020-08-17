@@ -2,6 +2,9 @@
   margin: 90px auto;
   .text{
     padding: 0 60px;
+    @media(max-width: 992px){
+      padding: 0 30px;
+    }
     h2{
       color: $secundaria;
       font-weight: 700;
