@@ -13,14 +13,6 @@ body {
 
 :focus{outline: none !important;}
 
-// Fontes
-h1,h2,h3,h4,h5,h6,p,span,a,button,ul,li {
-  font-family: 'Dosis', sans-serif !important;
-}
-h1,h2,h3,h4,h5,h6{
-  font-weight: 700 !important;
-}
-
 .botao-primario {
   background-color: $primaria;
   padding: 12px 50px;
@@ -41,6 +33,15 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: column-reverse;
   }
 }
+
+// Fontes
+h1,h2,h3,h4,h5,h6,p,span,a,button,ul,li {
+  font-family: 'Dosis', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700 !important;
+}
+
 
 // Slick slider
 @import '../slick/slick.scss';
@@ -77,4 +78,5 @@ h1,h2,h3,h4,h5,h6{
 
 // BLOG
 @import 'components/blog/blog-home.scss';
+@import 'components/blog/blog-single.scss';
 
