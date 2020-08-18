@@ -35,6 +35,13 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+.reverse-mob{
+  @media(max-width: 992px){
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 // Slick slider
 @import '../slick/slick.scss';
 @import '../slick/slick-theme.scss';
@@ -54,3 +61,7 @@ h1,h2,h3,h4,h5,h6{
 @import 'components/produtos/hero-produtos.scss';
 @import 'components/produtos/list-produtos.scss';
 @import 'components/produtos/praticidade.scss';
+
+// ALIMENTAÇÃO NATURAL
+@import 'components/alimen-natural/alimen-home.scss';
+@import 'components/alimen-natural/alimen-duvida.scss';

@@ -1,10 +1,9 @@
 #beneficios{
-  background: url('../img/1_home/principais_beneficios/fundo5%opacidade.png');
-  background-color: $secundaria;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-blend-mode: overlay;
+  background-color: $secundaria !important;
+  background-repeat: no-repeat !important;            
+  background-position: center center !important;
+  background-size: cover !important;
+  background-blend-mode: overlay !important;
   padding: 50px;
   button{
     margin: 0 auto;
