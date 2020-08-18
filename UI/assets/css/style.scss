@@ -40,13 +40,17 @@ h1,h2,h3,h4,h5,h6{
 @import '../slick/slick-theme.scss';
 
 // HOMEPAGE
-@import 'components/hero-home.scss';
-@import 'components/feito-com-amor.scss';
-@import 'components/beneficios.scss';
-@import 'components/slider-produtos-home.scss';
-@import 'components/como-funciona.scss';
-@import 'components/depoimentos.scss';
-@import 'components/lojas.scss';
-@import 'components/home-blogposts.scss';
-@import 'components/parceiro.scss';
+@import 'components/home/hero-home.scss';
+@import 'components/home/feito-com-amor.scss';
+@import 'components/home/beneficios.scss';
+@import 'components/home/slider-produtos-home.scss';
+@import 'components/home/como-funciona.scss';
+@import 'components/home/depoimentos.scss';
+@import 'components/home/lojas.scss';
+@import 'components/home/home-blogposts.scss';
+@import 'components/home/parceiro.scss';
 
+// PRODUTOS
+@import 'components/produtos/hero-produtos.scss';
+@import 'components/produtos/list-produtos.scss';
+@import 'components/produtos/praticidade.scss';

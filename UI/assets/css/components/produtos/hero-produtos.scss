@@ -1,0 +1,20 @@
+#hero-produtos{
+  padding: 50px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-color: rgba(255,255,255,0.5);
+  @media(max-width: 992px){
+    background-blend-mode: overlay;
+  }
+  h1{
+    font-size: 40px;
+    line-height: 55px;
+    color: #2F314A;
+  }
+  p{
+    font-size: 28px;
+    line-height: 48px;
+    color: #2F314A;
+  }
+}
