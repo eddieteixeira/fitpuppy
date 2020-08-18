@@ -1,0 +1,53 @@
+#faq{
+  padding: 20px;
+  margin: 90px auto;
+  h1{
+    color: #2F314A;
+    font-size: 32px;
+    line-height: 41px;
+    text-align:left;
+  }
+  #accordion{
+    width: 100%;
+    button{
+      color: #2F314A;
+      font-size: 16px;
+      line-height: 33px;
+      font-weight: 700;
+      &.collapsed{
+        text-decoration: none;
+        font-weight: 400;
+        &:before{
+          content: ">";
+          margin-right: 20px;
+          transform: rotate(0deg);
+          transition: 0.4s ease;
+        }
+      }
+      &:before{
+        content: ">";
+        display: inline-block;
+        transform: rotate(90deg);
+        margin-right: 20px;
+        transition: 0.4s ease;
+      }
+      &:hover{
+        text-decoration: none;
+      }
+      &:focus{
+        box-shadow: none;
+      }
+    }
+    .show{
+      transition: 0.4s all;
+    }
+    .card-header{
+      background-color: #fff;
+      border-bottom: none;
+    }
+    .card{
+      border-left: none;
+      border-right: none;
+    }
+  }
+}
