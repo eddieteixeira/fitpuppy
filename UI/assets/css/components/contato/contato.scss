@@ -1,0 +1,58 @@
+#contato{
+  padding: 20px;
+  margin: 90px auto;
+  @media(max-width: 992px){
+    margin: 30px auto;
+  }
+  .contato-txt{
+    .text-area{
+      max-width: 350px;
+    }
+    h1{
+      color: #2F314A;
+      font-size: 32px;
+      line-height: 41px;
+    }
+    p{
+      color: #686868;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .endereco{
+      max-width: 262px;
+      border-left: 2px solid $primaria;
+      padding-left: 20px;
+      p{
+        margin-bottom: 5px;
+      }
+      .social{
+        margin: 20px 0;
+        img{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .contato-form{
+    form{
+      label{
+        color: #535353;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      input,
+      textarea{
+        border-radius: 23px;
+        border: 1px solid #707070;
+      }
+      textarea{
+        min-height: 217px;
+      }
+      button{
+        text-align: right;
+        display: block;
+        float: right;
+      }
+    }
+  }
+}
