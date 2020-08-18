@@ -1,0 +1,73 @@
+#onde-estamos{
+  padding: 20px;
+  .container{
+    margin: 90px auto;
+    @media(max-width: 992px){
+      margin: 30px auto;
+    }
+    .onde-txt{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .text-area{
+        max-width: 350px;
+        h1{
+          color: #2F314A;
+          font-size: 32px;
+          line-height: 41px;
+        }
+        h2{
+          color: #2F314A;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        h3{
+          color: #2F314A;
+          font-size: 24px;
+          line-height: 40px;
+        }
+        p, li{
+          color: #686868;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        ul{
+          padding: 0 20px;
+          margin: 0;
+        }
+      }
+      input{
+        border-radius: 23px;
+        border: 1px solid #535353;
+      }
+    }
+    .onde-img{
+      background-repeat: no-repeat !important;            
+      background-position: center center !important;
+      background-size: cover !important;
+      @media(max-width: 992px){
+        margin: 30px auto;
+      }
+      img{
+        display: block;
+        width: 100%;
+        max-width: 445px;
+        height: auto;
+        object-fit: cover;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.cadastro-petshop{
+  margin: 30px auto 0 auto !important;
+  .container{
+    max-width: 650px;
+  }
+  h4{
+    margin: 20px auto;
+  }
+  button{
+    margin: 45px auto !important;
+  }
+}
