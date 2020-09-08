@@ -1,0 +1,16 @@
+{
+    "name": "freshlab/fitpuppy",
+    "description": "Endpoint para calculadora de kits personalizados",
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080"
+    },
+    
+    "autoload": {
+        "files": [
+            "src/lib.php"
+        ]
+    },
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    }
+}
